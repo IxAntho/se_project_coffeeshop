@@ -3,15 +3,6 @@
   max-width: 540px;
 }
 
-.card:first-of-type {
-  margin-right: 100px;
-}
-
-.card:last-of-type {
-  justify-self: center;
-  margin: 100px auto 0;
-}
-
 .card__title {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
@@ -33,7 +24,7 @@
   display: flex;
   margin-bottom: 16px;
   max-height: 20px;
-  font-family: "Noto Serif", "Times New Roman", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;

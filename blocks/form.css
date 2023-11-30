@@ -3,6 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 385px;
 }
 
 .form__fieldset {
@@ -40,14 +43,11 @@
 
 .form__input {
   background-color: #ffffff;
-  border: 1px solid #cfcfcf;
+  border: 1px solid #838383;
   margin-bottom: 32px;
 }
 
-.form__input[type="text"],
-.form__input[type="number"],
-.form__input[type="datetime-local"],
-.form__input[type="email"],
+.form__input_type_text,
 .form__button {
   min-height: 60px;
 }
@@ -67,7 +67,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  background-color: #2F80ED;
+  background-color: #2f80ed;
   min-height: 60px;
   color: #ffffff;
   margin-bottom: 32px;
@@ -81,7 +81,7 @@
   opacity: 70%;
 }
 
-.form__input[type="checkbox"] {
+.form__input_type_checkbox {
   width: 20px;
   height: 20px;
   margin: 0 12px 0 0;

@@ -31,5 +31,7 @@
 }
 
 .nav__link:hover {
-  color:#2F80ED;
+  display: inline-block;
+  transform: scale(1.1);
+  color: #2f80ed;
 }
